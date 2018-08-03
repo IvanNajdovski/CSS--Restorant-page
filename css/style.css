@@ -21,6 +21,9 @@ body {
   font-weight: 400;
   line-height: 1.6; }
 
+.head-icon {
+  fill: #F2745F; }
+
 .navigation {
   background-color: #EAF0FF; }
   .navigation__center {
