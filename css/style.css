@@ -29,7 +29,10 @@ body {
     justify-content: center;
     align-items: center; }
   .navigation__link {
-    text-decoration: none; }
+    text-decoration: none;
+    color: black; }
+    .navigation__link:active, .navigation__link:hover, .navigation__link:visited {
+      color: black; }
   .navigation__header {
     font-family: "Fira Code";
     font-size: 5rem;
