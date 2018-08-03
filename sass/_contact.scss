@@ -21,7 +21,7 @@
     padding-bottom: 4rem;
   }
   &__form-item{
-
+    font-family: var(--font-prime);
     flex: 0 0 ;
     margin: 2rem;
     padding: 1rem;
@@ -29,6 +29,7 @@
     background-color: #F4F4F4;
     height: 5rem;
     &-message{
+      font-family: var(--font-prime);
       order: 3;
       margin: 2rem;
       padding: 1rem;
