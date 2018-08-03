@@ -1,0 +1,433 @@
+.navigation{
+  background-color: #EAF0FF;
+  //max-width: 120rem;
+  //display: flex;
+  //justify-content: space-around;
+  //align-items: center;
+    &__center{
+      width: 100vw;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+  &__link{
+    text-decoration: none;
+  }
+
+    &__header{
+      font-family: "Fira Code" ;
+      font-size: 5rem;
+      position: absolute;
+      top:-.5rem;
+      left:5%;
+
+    }
+    &__list{
+
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    &__list-item{
+      font-size: 1.2rem;
+      font-weight: 100;
+      text-transform: uppercase;
+      padding: 3rem 4rem;
+    }
+}
+////////////////////////////////////
+//HEADER AREA
+.header{
+  height: 80vh;
+  background-image: url("../img/banner-bg.jpg");
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  & > *{
+    margin-bottom: 2rem;
+  }
+  &__text-medium{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+  }
+  &__main{
+    font-family: Constantia;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 500;
+
+  }
+  &__small{
+    font-size: 1.4rem;
+
+
+  }
+
+}
+/////////////////////////////
+//SECTION
+.section{
+  //margin: 0 8 rem;
+
+  &__contact{
+    margin: 8rem 0;
+    height: 35rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__contact-pic-1{
+    height: 80%;
+    width: 20%;
+    background-image: url("../img/cook_011.jpg");
+    background-size: cover;
+  }
+  &__contact-pic-2{
+    height: 80%;
+    width: 20%;
+    background-image: url("../img/cook_022.jpg");
+    background-size: cover;
+
+  }
+  &__contact-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100%;
+    width: 25%;
+    color: #fff;
+    background-color: #F2745F;
+    & > *:not(:last-child){
+
+      margin: 1rem;
+    }
+    &-header{
+      text-transform: uppercase;
+      font-size: 2.5rem;
+    }
+    &-main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #F3826F;
+      width: 90%;
+      //& > *{
+      //  padding: 2rem 0;
+      //}
+
+    }
+    &-secondary{
+      text-transform: uppercase;
+      border: 1px solid rgba(134, 135, 136, 0.62);
+      border-radius: 50%;
+      padding: .4rem;
+    }
+  }
+  &__meal{
+    margin: 5vh 0;
+    height: 35rem;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Fira Code";
+    & > * {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &-photo{
+      width: 70%;
+      transform:  scaleY(0.8);
+      border-radius: 50%;
+      border: 10px solid #EAF0FF;
+    }
+    &-title{
+      font-size: 3rem;
+    }
+
+  }
+
+}
+.text{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 2rem 0;
+}
+.phone{
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+///////////////////////////////
+//ORDER
+
+.order{
+  margin: 10rem 0;
+  height: 80vh;
+  background-image: url("../img/book-bg.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__header{
+    color: #fff;
+    font-size: 3rem;
+    padding: 6rem 0;
+  }
+  &__main{
+    //width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-photo-pic{
+      background-image: url("../img/book_left_image2.jpg");
+      background-size: cover;
+      content: '';
+      height: 40rem;
+      display: flex;
+      flex: 1 0 50%;
+      //width: 50rem
+
+    }
+    &-form{
+      height: 40rem;
+      flex: 0 0 50%;
+      //width: 50rem;
+      background-color: #fff;
+
+    }
+  }
+
+}
+.input{
+  border:none;
+  border-bottom: 1px solid lightgray;
+  width: 37%;
+  padding: 1rem;
+  margin: 5% 5%;
+}
+.reservation{
+  text-align: center;
+  font-family: "Fira Code";
+  font-size: 3rem;
+  padding-top: 2rem;
+}
+
+///////////////////////////////////
+//Weekly
+
+.weekly{
+
+  &__header{
+    text-align: center;
+    padding: 0rem;
+    font-size: 3rem;
+  }
+  &__food{
+    margin: 5% 10%;
+    display: flex;
+    justify-content: center;
+    &-item{
+      margin:2rem;
+      flex: 0 0 25%;
+      background-color: #F2F6FF;
+      &-header{
+        margin: 3rem 3rem .5rem 3rem;
+        border-bottom: 1px solid lightgray;
+        font-family: "Fira Code";
+        font-size: 3rem;
+        font-weight: 400;
+      }
+    }
+  }
+  &__img{
+    margin-bottom: -1rem;
+    height: 25rem;
+
+  }
+  &__img-holder-1{
+
+    margin: 3rem 3rem 0rem 3rem;
+    position: relative;
+  }
+  &__img-holder-2{
+
+    margin: 3rem 3rem 0rem 3rem;
+    position: relative;
+  }
+  &__img-holder-3{
+
+    margin: 3rem 3rem 0rem 3rem;
+    position: relative;
+  }
+  &__price-holder{
+    font-family: Impact;
+    position: absolute;
+    bottom: -.5rem;
+    right: 0;
+    background-color: #EAEAE9;
+    padding: 1rem;
+    color: #F2745F;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  &__text-holder{
+    background-color: #fff;
+    margin: 0 3rem 3rem 3rem;
+    & > *{
+      font-family: "Fira Code";
+      padding: 1rem;
+
+
+    }
+  }
+}
+.food-item-header{
+  padding: 2rem 2rem 1rem 2rem;
+  font-size: 1.7rem;
+}
+.food-item-text{
+  padding: 1rem 2rem 2rem 2rem;
+  font-size: 1.4rem;
+}
+/////////////////////////
+//Blog
+
+.blog{
+  padding: 10vh 0 3vh 0;
+
+  background-color: #F2F6FF;
+  &__header{
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+  }
+  &__container{
+
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__item{
+    margin: 3rem;
+    display: flex;
+    width: 35%;
+  }
+  &__text-feeld{
+    flex: 0 0 50%;
+    //width: 50%;
+    background-color: #fff;
+    &-header{
+      padding: 1.5rem;
+      font-family: "Fira Code";
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+  &__img{
+    flex: 0 0 50%;
+
+  }
+}
+.text-feeld{
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  font-size: 1.3rem;
+}
+.text-last{
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  color: #F3826F;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+////////////////////
+//NEWSLETTER
+
+.newsletter{
+  height:30vh;
+  background-image: url("../img/signup-bg.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__header{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+
+  }
+  &__form{
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    & > *{
+      border-radius: 5px;
+      margin: 2rem;
+    }
+
+  }
+  &__input{
+    padding: 2rem 2rem;
+    border: none;
+    height: 4rem;
+    flex: 1;
+
+  }
+}
+//////////////////////////
+//FOOTER
+.footer{
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #363E50;
+  color: #fff;
+  & span{
+    color: #F3826F;
+  }
+  &__icons{
+    display: flex;
+    justify-content: center;
+  }
+  &__icon {
+    height: 4rem;
+    width: 4rem;
+    fill: #363E50;
+    //background-color: #fff;
+    padding: 1rem;
+   // margin: 0 1rem;
+    //border-radius: 50%;
+    &:hover{
+      fill : #fff;
+    }
+  }
+  &__link{
+
+    text-decoration: none;
+    background-color: #fff;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin: 1rem;
+    &:hover{
+      background-color: #F3826F;
+    }
+
+  }
+}

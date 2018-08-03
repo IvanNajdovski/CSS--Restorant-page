@@ -1,0 +1,42 @@
+.btn-main{
+   text-transform: uppercase;
+   color: #fff;
+   border: none;
+   font-size: 1.3rem;
+   font-weight: 600;
+   background-color: #F2745F;
+   padding: 1.5rem 3rem;
+   cursor: pointer;
+   &-white{
+     color: #F2745F;
+     background-color: #fff;
+   }
+ }
+.btn-main-reservation{
+  width: 40%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background-color: #F2745F;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  margin: 5% 5%;
+
+}
+.btn-main-newsletter{
+  text-align: center;
+  height: 4rem;
+
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  border: 3px solid #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0rem 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}

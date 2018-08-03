@@ -1,0 +1,101 @@
+////////////////////
+//MENU HEADER
+.header-menu {
+  height: 40vh;
+  background-image: url("../img/banner-bg.jpg");
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  & > * {
+    margin-bottom: 2rem;
+  }
+  &__main{
+    font-family: Constantia;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 500;
+  }
+  &__small{
+    font-size: 1.4rem;
+  }
+}
+.menu{
+
+  &__item{
+    //height: 70vh;
+    display: flex;
+    //align-items: center;
+    justify-content: center;
+    margin: 10vh 15vw;
+  }
+  &__img-prime{
+    flex: 0 0 40%;
+  }
+  &__content{
+    margin: 1.5rem 1.5rem 0 1.5rem;
+    display: flex;
+    //flex-direction: column;
+    &-prime{
+
+      flex: 0 0 60%;
+      background-color: #F2F6FF;
+    }
+    display: flex;
+  }
+  &__title{
+    font-size: 3.5rem;
+    font-family: var(--font-prime);
+    font-weight: 200;
+    margin: 3rem;
+    border-bottom: 1px solid lightgray;
+  }
+  &__text-holder{
+    margin:0 1.5rem;
+    background-color: #fff;
+  }
+  &__subitems{
+      padding-bottom: 2rem;
+    &-cover{
+      position: relative;
+        margin: 1.5rem 1.5rem 0 1.5rem;
+    }
+    &-price{
+
+      font-family: Impact;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: #EAEAE9;
+      padding: 1rem;
+      color: #F2745F;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+    &-img{
+      width: 100%;
+      margin-bottom: -.5rem;
+    }
+    &-header{
+      font-family: var(--font-prime);
+      font-size: 2.2rem;
+      font-weight: 200;
+      padding: 2rem;
+    }
+    &-text{
+      font-family: var(--font-prime);
+      font-size: 1.5rem;
+      font-weight: 200;
+      padding: 0 2rem 2rem 2rem;
+      //display: block;
+
+    }
+  }
+
+}
+.order-menu{
+  margin-bottom: 0 !important;
+}
